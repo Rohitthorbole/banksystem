@@ -1,0 +1,34 @@
+create table customer
+(
+ id float primary key,
+ name varchar(50),
+ email varchar(50),
+ curr_amt float
+);
+
+insert into customer values(1297,'Rohit Thorbole','rohitthorbole@gmail.com',768920);
+
+insert into customer values(3167,'Santosh Jogdand','santoshjogdand@gmail.com',897634);
+
+insert into customer values(4269,'Aditya Bagate','adityabagate@gmail.com',978621);
+
+insert into customer values(5390,'Dinesh Jadhav','dineshjadhav@gmail.com',997688);
+
+insert into customer values(1199,'Krushna Bobade','krushnabobade@gmail.com',997768);
+
+insert into customer values(8329,'Samadhan Thorbole','samadhanthorbole@gmail.com',987906);
+
+insert into customer values(1290,'Aditya Bagal','adityabagal@gmail.com',932156);
+
+insert into customer values(9832,'Omkar Kokate','omkarkokate@gmail.com',889765);
+
+insert into customer values(2399,'Shubham Sontakke','shubhamsontakke@gmail.com',888776);
+
+insert into customer values(2133,'Narayan Deshpande','narayandeshpande@gmail.com',222333);
+
+CREATE TABLE record (
+    sender VARCHAR(30),
+    receiver VARCHAR(30),
+    amt FLOAT,
+    date_time TIMESTAMP DEFAULT current_timestamp
+);

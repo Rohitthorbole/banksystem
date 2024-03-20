@@ -1,0 +1,66 @@
+.name{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+.information {
+    height: 50%;
+    width: 30%;
+    border: 2px solid rgb(119, 2, 129);
+    box-sizing: border-box;
+    padding: 20px;
+    margin: auto; 
+    border-radius: 10px;
+}
+.information label {
+    font-size: 20px;
+}
+
+.information input {
+    width: 30%; 
+    font-size: 15px; 
+    margin-bottom: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 720px) {
+    .information {
+        width: 90%; 
+        padding: 10px;
+    }
+
+    .information label {
+        font-size: 18px;
+    }
+}
+
+.info {
+    text-align: center;
+    font-size: 18px;
+}
+
+.info table {
+    width: 80%;
+    max-width: 800px; 
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.info th, .info td {
+    border: 1px solid rgb(119, 2, 129);
+    padding: 8px;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .info table {
+        width: 90%; 
+    }
+
+    .info th, .info td {
+        font-size: 16px; 
+    }
+}

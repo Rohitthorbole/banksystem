@@ -1,0 +1,54 @@
+.name,.welcome{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+img{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    margin-bottom:0px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}    
+.link{
+    display: flex;
+
+}   
+.select{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(119, 2, 129);
+}   
+
+@media only screen and (max-width: 720px) {
+    .name, .welcome {
+        font-size: 24px;
+    }
+
+    img {
+        
+        height: auto;
+    }
+
+    .image, .link {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .select {
+        margin-bottom: 10px;
+        
+        color:rgb(119, 2, 129);
+    }
+}
+.select{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(119, 2, 129);
+}   

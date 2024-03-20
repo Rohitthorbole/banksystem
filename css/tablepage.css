@@ -1,0 +1,18 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+table{
+    border: none;
+    width: 100vw;
+}
+th{
+    background-color: rgb(119, 2, 129);
+    color:white;
+}
+th,td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(119, 2, 129);
+}

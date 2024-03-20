@@ -1,0 +1,66 @@
+.name{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.in {
+    height: 50%;
+    width: 25%;
+    border: 2px solid rgb(119, 2, 129);
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin: auto; 
+    border-radius: 10px;
+}
+.in label {
+    font-size: 20px;
+}
+
+.in input {
+    width: 30%; 
+    font-size: 15px; 
+    margin-bottom: 10px;
+    display: block;
+}
+
+.in input[type="submit"] {
+    background-color: rgb(119, 2, 129);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 25%;
+}
+
+.in input[name="sender"],
+.in input[name="receiver"],
+.in input[name="amt"]
+ {
+    width: 80%; 
+    font-size: 20px; 
+    margin-bottom: 10px;
+    border: 1px solid rgb(119, 2, 129);
+    border-radius: 5px;
+}
+.input{
+    color:rgb(119, 2, 129);
+}
+
+@media only screen and (max-width: 600px) {
+    .in {
+        width: 90%; 
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .in label {
+        font-size: 16px; 
+    }
+
+    .in input[type="submit"] {
+        margin-left: 0;
+    }
+}
