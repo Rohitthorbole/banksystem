@@ -4,9 +4,9 @@
     margin: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     table {
-        width: 90%; 
+        width: 100vw; 
     }
 
     th, td {

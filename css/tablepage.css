@@ -12,7 +12,6 @@ th{
     color:white;
 }
 th,td{
-    padding-top: 10px;
-    padding-bottom: 10px;
+   padding: 10px;
     border: 1px solid rgb(119, 2, 129);
 }
